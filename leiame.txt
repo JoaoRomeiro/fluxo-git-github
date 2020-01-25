@@ -25,6 +25,7 @@ git commit -m "<descrição do commint>"
 
 -- exibe os pontos na história (commits) que foram feitos
 git log
+git log -<numero de commits a serem exibidos, por exemplo, 2>
 
 -- exibe a diferença entre os arquivos rastreados
 git diff
@@ -40,3 +41,5 @@ git add <pasta>\*
 
 -- adiciona todos os arquivos
 git add .
+
+-- para não rastrear um arquivo ou pasta é necessário criar ou editar o arquivo .gitignore e adicionar o arquivo ou pasta
