@@ -47,4 +47,11 @@ git add .
 touch .gitignore
 
 -- para navegar entre os commits
-git checkout <código do commit ou o nome da branch>
+git checkout <código do commit ou o nome da branch>-- fazer o merge branch
+
+-- para criar uma  branch
+git branch <nome da branch>
+
+-- acessar a branch principal, normalmente a master
+git checktou master
+git merge <nome da branch a ser integrada>
