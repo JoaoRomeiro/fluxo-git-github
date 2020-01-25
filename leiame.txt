@@ -43,3 +43,8 @@ git add <pasta>\*
 git add .
 
 -- para não rastrear um arquivo ou pasta é necessário criar ou editar o arquivo .gitignore e adicionar o arquivo ou pasta
+-- utilizar o programa git bash
+touch .gitignore
+
+-- para navegar entre os commits
+git checkout <código do commit ou o nome da branch>
