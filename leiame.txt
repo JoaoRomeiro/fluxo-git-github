@@ -1,0 +1,42 @@
+fonte: https://www.youtube.com/watch?v=2T2l2rGRzXs&t=2588s
+2020-01-25 12:35
+
+Git é uma ferramenta de versionamento de código
+
+Ele serve para marcar pontos na história do desenvolvimento do projeto
+
+Esses pontos (commits) servem para marcar funcionalidades que o programador terminou de implementar
+
+Github serve para hospedar o codigo em uma plataforma segura e fornecer ferramentas para gerenciar o versionamento, outro exemplo, seria o bitbucket
+
+Comandos
+
+-- informa que a pasta será monitorada pelo git
+git init 
+
+-- informa quais arquivos não estão versionados
+git status
+
+-- adiciona o arquivo ao rastreio (será versionado) do git 
+git add <nome do arquivo \ pasta>
+
+-- cria um ponto na histório do projeto
+git commit -m "<descrição do commint>"
+
+-- exibe os pontos na história (commits) que foram feitos
+git log
+
+-- exibe a diferença entre os arquivos rastreados
+git diff
+
+-- adicona apenas os arquivos html
+git add *.html
+
+-- arqivos html da pasta
+git add <pasta>\*.html 
+
+-- todos os arquivos da pasta
+git add <pasta>\* 
+
+-- adiciona todos os arquivos
+git add .
