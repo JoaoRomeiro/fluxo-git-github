@@ -55,3 +55,7 @@ git branch <nome da branch>
 -- acessar a branch principal, normalmente a master
 git checktou master
 git merge <nome da branch a ser integrada>
+
+-- para fazer o clone do repositorio remoto
+git clone <url do repositorio remoto> <nome da pasta cujos arquivos serão baixados>
+git clone https://github.com/JoaoRomeiro/fluxo-git-github.git fluxo-git-github
