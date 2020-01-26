@@ -59,3 +59,7 @@ git merge <nome da branch a ser integrada>
 -- para fazer o clone do repositorio remoto
 git clone <url do repositorio remoto> <nome da pasta cujos arquivos serão baixados>
 git clone https://github.com/JoaoRomeiro/fluxo-git-github.git fluxo-git-github
+
+-- para parar de rastrear um arquivo já rastreado
+git rm --cached <arquivo ou pasta>
+git commit <...>
