@@ -61,3 +61,6 @@ git clone https://github.com/JoaoRomeiro/fluxo-git-github.git fluxo-git-github
 -- para parar de rastrear um arquivo já rastreado
 git rm --cached <arquivo ou pasta>
 git commit <...>
+
+-- exibe o ultimo commit
+git show
